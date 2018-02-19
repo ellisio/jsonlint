@@ -1,6 +1,6 @@
 {
-  "author": "Zach Carter <zach@carter.name> (http://zaa.ch)",
-  "name": "jsonlint",
+  "author": "Colorado Ree <colorado at dotdashpay>",
+  "name": "jsonlint2",
   "description": "Validate JSON",
   "keywords": [
     "json",
@@ -8,14 +8,14 @@
     "lint",
     "jsonlint"
   ],
-  "version": "1.6.2",
+  "version": "1.7.0",
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/zaach/jsonlint.git"
+    "url": "git://github.com/cjrd/jsonlint.git"
   },
   "bugs": {
-    "url": "http://github.com/zaach/jsonlint/issues"
+    "url": "http://github.com/cjrd/jsonlint/issues"
   },
   "main": "lib/jsonlint.js",
   "bin": {
@@ -25,7 +25,7 @@
     "node": ">= 0.6"
   },
   "dependencies": {
-    "nomnom": "= 1.8.1",
+    "nomnom": "1.8.1",
     "JSV": ">= 4.0.x"
   },
   "devDependencies": {
