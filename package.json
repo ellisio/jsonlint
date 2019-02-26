@@ -1,6 +1,5 @@
 {
-  "author": "Andrew Ellis <awellis89@gmail.com>",
-  "name": "@salesmessage/jsonlint",
+  "name": "@arcadia/jsonlint",
   "description": "Validate JSON",
   "keywords": [
     "json",
@@ -8,7 +7,7 @@
     "lint",
     "jsonlint"
   ],
-  "version": "1.8.0",
+  "version": "1.8.1",
   "preferGlobal": true,
   "repository": {
     "type": "git",
@@ -25,8 +24,8 @@
     "node": ">= 0.6"
   },
   "dependencies": {
-    "JSV": ">= 4.0.x",
-    "commander": "^2.19.0"
+    "@gerhobbelt/nomnom": "^1.8.4-28",
+    "JSV": ">= 4.0.x"
   },
   "devDependencies": {
     "test": "*",
@@ -36,6 +35,6 @@
   "scripts": {
     "test": "node test/all-tests.js"
   },
-  "homepage": "http://zaach.github.com/jsonlint/",
+  "homepage": "http://github.com/salesmessage/jsonlint",
   "optionalDependencies": {}
 }
